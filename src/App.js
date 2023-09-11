@@ -1,20 +1,19 @@
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <p>Holaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+        <Routes>
+          <Route>
+
+          </Route>
+        </Routes>
+      </div>
+    </BrowserRouter>
+   
   );
 }
 
