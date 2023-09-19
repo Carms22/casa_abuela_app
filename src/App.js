@@ -1,20 +1,18 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import Greeting from "./components/pure/greeting";
+import TaskList from "./components/container/task_list";
+import Ejemplo1 from './hooks/Ejemplo1';
 
 function App() {
   return (
-    <BrowserRouter>
+    
       <div className="App">
       {/*Componente propio Greetings*/}
         <Greeting name = 'Carmen'/>
-        <Routes>
-          <Route>
-
-          </Route>
-        </Routes>
+        <TaskList></TaskList>
+        <Ejemplo1/>
       </div>
-    </BrowserRouter>
+    
    
   );
 }
